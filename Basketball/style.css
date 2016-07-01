@@ -1,0 +1,96 @@
+#basketball {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: calc(100% - 20%);
+  border-radius: 50%;
+  background: orange;
+}
+#basketballHoop {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: calc(100% - 80%);
+  border: solid 1px black
+}
+.rim {
+  height: 4px;
+  width: 80px;
+  position: relative;
+  top: 130px;
+  left: calc(100% - 75%);
+  background-color: red;
+}
+.square {
+  height: 75px;
+  width: 80px;
+  position: relative;
+  border: 3px solid black;
+  left: calc(100% - 77%);
+  top: calc(100% - 80%)
+}
+#game {
+  visibility: hidden;
+}
+#main {
+  margin: auto;
+  height: 400px;
+  width: 200px;
+  background: blue;
+  text-align: center;
+  line-height: 200px;
+}
+button {
+  clear:both;
+  margin: 20px;
+  background: orange;
+  border: none;
+  font-size: 20px;
+}
+#newPerson {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+}
+#person {
+  visibility: hidden;
+}
+#randomBox {
+  position: absolute;
+  top: 0px;
+  left: calc(100% - 50% - 150px);
+  margin: auto;
+  border: orange 5px solid;
+  height: 200px;
+  width: 150px;
+  background: red;
+  border-radius: 20px;
+  font-size: 200px;
+  line-height: 200px;
+  padding-left: 50px;
+  color: orange;
+  visibility: hidden;
+  cursor: pointer;
+}
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  top: -150px;
+  display: inline-block;
+  margin: 10px;
+  background-repeat: none;
+  background-size: 100% 100%;
+}
+#ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 54px;
+  left: calc(100% - 50% - 100px);
+  background: blue;
+  visibility: hidden;
+}
